@@ -1,5 +1,5 @@
 # optional
-# this code is to project the NEPs to the heads
+# this code is to project the planned NEPs to the nearest points of head.
 # in case anyone does not want to use blender.
 # Author: Yao Li
 
