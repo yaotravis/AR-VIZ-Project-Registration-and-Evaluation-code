@@ -59,7 +59,7 @@ def place_sphere_at_nearest_point(NEP_file, head_pcd, radius=1.0):
 
 
 
-def generate_spheres_and_save_separately(head_file, curve_planned_folder, save_folder):
+def generate_spheres_and_save_separately(head_file, NEP_planned_folder, save_folder):
     """
     Generate the nearest-point sphere for each NEP and save each as an .obj file, naming it NP_MF_L.obj.
     """
@@ -77,7 +77,7 @@ def generate_spheres_and_save_separately(head_file, curve_planned_folder, save_f
     for base in suffix_bases:
         for side in sides:
             suffix = f"{base}_{side}.obj"
-            file_path = os.path.join(curve_planned_folder, suffix)
+            file_path = os.path.join(NEP_planned_folder, suffix)
             if not os.path.exists(file_path):
                 print(f" file not found：{file_path}")
                 continue

@@ -159,6 +159,7 @@ def visualize_3d(original_points, middle_points_3d, smoothed_points_3d):
 # Main function
 if __name__ == "__main__":
     # Read the path to the OBJ file
+    # change Plannung_Nerve_L to Plannung_Nerve_R for right side
     target_file = os.path.join(
         'C:/Users/yli84/Uniklinik RWTH Aachen/Paper AR VIZ - General/Auswertung/Obj/',
         "Plannung_Nerve_L.obj"

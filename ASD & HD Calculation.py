@@ -51,7 +51,6 @@ def calculate_average_surface_distance(points_a, points_b):
     total_points = len(points_a) + len(points_b)
     asd = total_distance / total_points
     return round(asd, 2)
-    return round(average_distance, 2)
 
 
 
